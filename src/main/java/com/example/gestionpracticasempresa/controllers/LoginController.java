@@ -1,4 +1,4 @@
-package com.example.gestionpracticasempresa;
+package com.example.gestionpracticasempresa.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -6,7 +6,9 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
-public class HelloController {
+import java.io.Serializable;
+
+public class LoginController implements Serializable {
     @FXML
     private Label welcomeText;
     @FXML
@@ -20,6 +22,6 @@ public class HelloController {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+        info.setText("Welcome to JavaFX Application!");
     }
 }
