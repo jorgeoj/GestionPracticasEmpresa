@@ -16,7 +16,7 @@
               <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
           </padding>
       
-             <Label fx:id="welcomeText" text="Iniciar sesión" textFill="#0598ff">
+             <Label text="Iniciar sesión" textFill="#0598ff">
             <font>
                <Font name="System Bold" size="24.0" />
             </font>
@@ -31,7 +31,7 @@
                <Insets left="20.0" right="20.0" />
             </VBox.margin>
          </PasswordField>
-          <Button fx:id="btnIniciarSesion" onAction="#onHelloButtonClick" style="-fx-background-color: #0598ff;" text="Iniciar sesión" textFill="WHITE">
+          <Button fx:id="btnIniciarSesion" onAction="#login" style="-fx-background-color: #0598ff;" text="Iniciar sesión" textFill="WHITE">
             <VBox.margin>
                <Insets top="20.0" />
             </VBox.margin>
